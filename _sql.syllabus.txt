@@ -1,0 +1,63 @@
+             
+             <-------DBMS Syllabus------>
+
+1. Basic Introduction...
+    -> Definition
+    -> 2 tier / 3 tier Architect
+    -> Data Independenc***
+         -> 3 schema
+         -> 3 level of abstraction
+    -> verious Data models***
+         -> Network
+         -> Hirarchical
+         -> Relational***
+         -> E-R***
+         -> Object Oriented
+
+2. E-R Model(Entity Data Model)...
+    -> Attributs Type
+    -> Relationship
+    -> Type of Relationship***
+
+3. Basic of Keys...
+    -> Primary key
+    -> Candidate key***
+    -> Super key
+    -> Forigen key***
+
+4. Normaligation...
+    -> Closure method***
+    -> Funactional Dependency
+    -> 1st Normal form**      
+    -> 2ed Normal form**     
+    -> 3er Normal form...5/6 NF**
+    -> BCNF***      
+
+5. Transaction control & concwerency
+    -> ACID propatrys***
+    -> Darty read problem**
+         -> R-W  [R->Read / W->Wright]
+         -> W-R
+         -> W-W
+    -> Conflict Serialigebility***     
+    -> Recoverability
+    -> 2-PL***
+    -> TimeStamp protocal***
+
+6. SQL & Relational Algebra
+    -> DDL***
+    -> DML***
+    -> DCL***
+    -> Counstraint
+    -> Aggregate Functions***
+    -> Joins***
+    -> Nested Query***
+         -> In / Notin / any / all...
+
+7. Indexing...
+    -> Primary index
+    -> Clustrs index
+    -> Secoundery index
+    -> Multy Lable
+          ->Btree  
+          ->B+tree  
