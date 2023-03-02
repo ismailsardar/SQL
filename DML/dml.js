@@ -47,3 +47,25 @@ WHERE Roll BETWEEN 103 AND 106;
 SELECT Roll,Name,GPA
 FROM students
 WHERE Roll!=101;
+
+//AND, OR | Logical Operator in SQL
+SELECT *
+FROM students
+WHERE Gender='Meal' AND GPA=4.33;
+
+SELECT *
+FROM students
+WHERE Gender='Meal' OR GPA=4.33;
+
+SELECT *
+FROM students
+WHERE Gender='Meal' AND (GPA=4.33 OR City='Khulna');
+
+//NOT , IN | Logical Operator in SQL
+SELECT *
+FROM students
+WHERE City IN('Dhaka','Khulna');
+
+SELECT *
+FROM students
+WHERE City NOT IN('Dhaka','Khulna');
