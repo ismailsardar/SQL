@@ -24,3 +24,17 @@ ORDER BY Name;
 SELECT Roll,Name
 FROM students
 ORDER BY Name DESC;
+
+//where keyWord conditional search
+SELECT *
+FROM students
+WHERE Age=23;
+
+SELECT *
+FROM students
+WHERE GPA<4.00;
+
+SELECT Roll,Name,GPA
+FROM students
+WHERE GPA>4.00
+ORDER BY GPA DESC;
