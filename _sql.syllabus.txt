@@ -4,18 +4,18 @@
 1. Basic Introduction...
     -> Definition
     -> 2 tier / 3 tier Architect
-    -> Data Independenc***
+    -> Data Independence***
          -> 3 schema
          -> 3 level of abstraction
-    -> verious Data models***
+    -> various Data models***
          -> Network
-         -> Hirarchical
+         -> Hierarchical
          -> Relational***
          -> E-R***
          -> Object Oriented
 
 2. E-R Model(Entity Data Model)...
-    -> Attributs Type
+    -> Attribute Type
     -> Relationship
     -> Type of Relationship***
 
@@ -23,19 +23,19 @@
     -> Primary key
     -> Candidate key***
     -> Super key
-    -> Forigen key***
+    -> Foreign key***
 
-4. Normaligation...
+4. Normalization...
     -> Closure method***
-    -> Funactional Dependency
+    -> Functional Dependency
     -> 1st Normal form**      
     -> 2ed Normal form**     
     -> 3er Normal form...5/6 NF**
     -> BCNF***      
 
-5. Transaction control & concwerency
-    -> ACID propatrys***
-    -> Darty read problem**
+5. Transaction control & concurrency
+    -> ACID property's***
+    -> Darth read problem**
          -> R-W  [R->Read / W->Wright]
          -> W-R
          -> W-W
