@@ -38,3 +38,12 @@ SELECT Roll,Name,GPA
 FROM students
 WHERE GPA>4.00
 ORDER BY GPA DESC;
+
+//Relational Operator BETWEEN and !=
+SELECT Roll,Name,GPA
+FROM students
+WHERE Roll BETWEEN 103 AND 106;
+
+SELECT Roll,Name,GPA
+FROM students
+WHERE Roll!=101;
