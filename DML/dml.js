@@ -14,3 +14,13 @@ LIMIT 5;
 //remove all duplicate value
 SELECT DISTINCT City
 FROM students;
+
+//Ascending order
+SELECT Roll,Name
+FROM students
+ORDER BY Name;
+
+//Descending order
+SELECT Roll,Name
+FROM students
+ORDER BY Name DESC;
