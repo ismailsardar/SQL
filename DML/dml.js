@@ -69,3 +69,28 @@ WHERE City IN('Dhaka','Khulna');
 SELECT *
 FROM students
 WHERE City NOT IN('Dhaka','Khulna');
+
+//LIKE | Logical Operator
+SELECT *
+FROM students
+WHERE Name LIKE 'H%';//'%h', '_u%', '%hi%', '%i_'
+
+SELECT *
+FROM students
+WHERE Name LIKE '%n';
+
+SELECT *
+FROM students
+WHERE Name LIKE '%hi%';
+
+SELECT *
+FROM students
+WHERE Name LIKE '%i_';
+
+SELECT *
+FROM students
+WHERE Name LIKE '_u%';
+
+// AS Keyword for custom name
+SELECT Roll AS ID, Name AS 'Full Name'
+FROM students;
