@@ -112,3 +112,11 @@ WHERE ID=103;
 UPDATE teachers
 SET Name='Pane',Salary=5000
 WHERE ID=103;
+
+UPDATE teachers
+SET Salary= Salary-5000
+WHERE Salary>25000;
+
+// DELETE Statement in SQL
+DELETE FROM teachers
+WHERE ID>105;
