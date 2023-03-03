@@ -94,3 +94,13 @@ WHERE Name LIKE '_u%';
 // AS Keyword for custom name
 SELECT Roll AS ID, Name AS 'Full Name'
 FROM students;
+
+//Constraint, AUTO_INCREMENT SQL
+CREATE TABLE teachers
+(
+    ID int NOT NULL AUTO_INCREMENT,
+    Name varchar(15) NOT NULL,
+    Salary double(10,2),
+    PRIMARY KEY(ID)
+);
+
