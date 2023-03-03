@@ -104,3 +104,11 @@ CREATE TABLE teachers
     PRIMARY KEY(ID)
 );
 
+// UPDATE Statement
+UPDATE teachers
+SET Name='Sanim'
+WHERE ID=103;
+
+UPDATE teachers
+SET Name='Pane',Salary=5000
+WHERE ID=103;
