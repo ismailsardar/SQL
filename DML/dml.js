@@ -120,3 +120,13 @@ WHERE Salary>25000;
 // DELETE Statement in SQL
 DELETE FROM teachers
 WHERE ID>105;
+
+// UPPER and LOWER Function
+SELECT UPPER('i am ismile');
+SELECT LOWER('I AM Ismile');
+
+SELECT UPPER(Name)
+FROM teachers;
+
+SELECT UPPER(Name) AS Name
+FROM teachers;
