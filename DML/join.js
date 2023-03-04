@@ -53,3 +53,33 @@ FROM
     students AS S RIGHT JOIN coures AS C
 ON
     S.Roll = C.Roll;
+
+// UNION, UNION ALL in SQL
+SELECT
+    Roll,
+    NAME,
+    Gander
+FROM khulna_tour
+
+UNION
+
+SELECT
+    Roll,
+    NAME,
+    Gander
+FROM dhaka_tour;  
+
+//union All
+SELECT
+    Roll,
+    NAME,
+    Gander
+FROM khulna_tour
+
+UNION ALL
+
+SELECT
+    Roll,
+    NAME,
+    Gander
+FROM dhaka_tour;
