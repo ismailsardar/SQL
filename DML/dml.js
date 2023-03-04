@@ -161,3 +161,16 @@ WHERE Gender='Meal';
 SELECT *
 FROM teachers
 WHERE Salary > (SELECT AVG(Salary) FROM teachers);
+
+// ALTER statement in SQL.
+ALTER TABLE teachers
+ADD Age int(5);
+
+ALTER TABLE teachers
+ADD Dept varchar(15);
+
+ALTER TABLE teachers
+CHANGE Dept Department varchar(15); //Renaming
+
+ALTER TABLE teachers
+DROP COLUMN Age;//Delete Column
