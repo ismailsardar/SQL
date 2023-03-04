@@ -14,3 +14,16 @@ FROM
     coures AS C
 WHERE
     S.Roll = C.Roll
+
+// INNER JOIN in SQL
+SELECT
+    S.Roll,
+    Reg,
+    Name,
+    Cours_Name,
+    GPA,
+    S.City
+FROM
+    students AS S INNER JOIN coures AS C
+ON
+    S.Roll = C.Roll;    
