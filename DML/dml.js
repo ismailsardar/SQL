@@ -146,3 +146,13 @@ SELECT EXP(12);//7.38905609893065 POWER OF e
 SELECT RAND();//Random Number
 SELECT TRUNCATE(12.34353546,2);//Return 12.34
 SELECT TRUNCATE(LOG(2),2);
+
+DESCRIBE table_Name;//it's show Table details
+
+// Aggregate Functions in SQL
+SELECT COUNT(*),MIN(Salary),MAX(Salary),AVG(Salary),SUM(Salary)
+FROM teachers;
+
+SELECT Name,MIN(Age)
+FROM students
+WHERE Gender='Meal';
