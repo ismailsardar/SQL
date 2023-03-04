@@ -156,3 +156,8 @@ FROM teachers;
 SELECT Name,MIN(Age)
 FROM students
 WHERE Gender='Meal';
+
+// Sub Query in SQL
+SELECT *
+FROM teachers
+WHERE Salary > (SELECT AVG(Salary) FROM teachers);
