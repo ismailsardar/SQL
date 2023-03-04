@@ -174,3 +174,8 @@ CHANGE Dept Department varchar(15); //Renaming
 
 ALTER TABLE teachers
 DROP COLUMN Age;//Delete Column
+
+//Update column
+UPDATE teachers
+SET Department="CSE"
+WHERE ID=100;
