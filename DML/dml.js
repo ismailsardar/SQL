@@ -179,3 +179,13 @@ DROP COLUMN Age;//Delete Column
 UPDATE teachers
 SET Department="CSE"
 WHERE ID=100;
+
+// GROUP BY clause
+SELECT Department,SUM(Salary)
+FROM teachers
+GROUP BY Department;
+
+SELECT Department,SUM(Salary)
+FROM teachers
+GROUP BY Department
+ORDER BY SUM(Salary) DESC;
