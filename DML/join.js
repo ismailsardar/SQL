@@ -88,3 +88,20 @@ FROM dhaka_tour;
 CREATE VIEW student_view AS
 SELECT Roll,Name,City
 FROM students;
+
+//view update
+UPDATE student_view
+SET Name='Kaku'
+WHERE Roll=110;
+
+//view insert
+INSERT INTO student_view(Roll,Name,City)
+VALUES
+(113,'Baba','Frage');
+
+//Delete view
+DELETE FROM student_view
+WHERE Roll=113;
+
+//Drop view
+DROP VIEW student_view;
