@@ -83,3 +83,8 @@ SELECT
     NAME,
     Gander
 FROM dhaka_tour;
+
+// VIEW in SQL (part-1)
+CREATE VIEW student_view AS
+SELECT Roll,Name,City
+FROM students;
